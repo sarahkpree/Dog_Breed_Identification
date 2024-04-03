@@ -134,6 +134,8 @@ The comparison of these eight models was based on accuracy, macro, and weighted 
 
 <img width="851" alt="Screen Shot 2024-04-03 at 3 30 43 PM" src="https://github.com/sarahkpree/Dog_Breed_Identification/assets/61251211/ffd507ae-f468-43d3-b963-bc5ccffea3ed">
 
+
+
 <img width="820" alt="Screen Shot 2024-04-03 at 3 30 24 PM" src="https://github.com/sarahkpree/Dog_Breed_Identification/assets/61251211/11fa9fd9-9d8c-411d-b8a0-ff52ca41d322">
 
 ### Limitations
