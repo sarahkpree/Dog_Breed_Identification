@@ -16,7 +16,7 @@ The aim of this group project was to develop models capable of categorizing vari
 
 ### Data Sources
 
-The Stanford Dogs dataset is comprised of approx 20,000 images of 120 dog breeds worldwide, sourced from ImageNet. With roughly 150 images per class, the dataset is balanced. The dataset can be found in the repository as " ".
+The Stanford Dogs dataset is comprised of approx 20,000 images of 120 dog breeds worldwide, sourced from ImageNet. With roughly 150 images per class, the dataset is balanced. The dataset is too large to be uploaded to the repository, but it can be found [here](https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset).
 
 ### Tools
 
