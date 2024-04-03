@@ -5,8 +5,8 @@
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
 - [Tools](#tools)
-- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
-- [Tools and Methods](#tools-and-methods)
+- [Handcrafted CNN Models](#handcrafted-cnn-models)
+- [Transfer Learning Models](#transfer-learning-models)
 - [Results](#results)
 - [Limitations](#limitations)
 
@@ -26,11 +26,11 @@ The Stanford Dogs dataset is comprised of approx 20,000 images of 120 dog breeds
 
 We created several Convolutional Neural Network (CNN) models to compare their performance. 
 
-**Model 1:** Basic CNN Model
-**Model 2:** Basic CNN Model with Batch Normalization
-**Model 3:** Basic CNN Model with Batch Normalization & L1 Regularization
-**Model 4:** Basic CNN Model with Batch Normalization & L2 Regularization
-**Model 5:** Basic CNN Model with Batch Normalization, L1 & L2 Regularization
+- **Model 1:** Basic CNN Model
+- **Model 2:** Basic CNN Model with Batch Normalization
+- **Model 3:** Basic CNN Model with Batch Normalization & L1 Regularization
+- **Model 4:** Basic CNN Model with Batch Normalization & L2 Regularization
+- **Model 5:** Basic CNN Model with Batch Normalization, L1 & L2 Regularization
 
 The hyperparameters (optimizer, learning rate, epochs, batch size) were the same across all models. 
 
@@ -82,9 +82,9 @@ model_1.fit(training_data,
 
 We created three different transfer learning models. By comparing the performance of these three transfer learning models, we gained insights into which models were best suited for our specific task and dataset.
 
-**Model 1:** VGG 16
-**Model 2:** Xception
-**Model 3:** ResNet5OV2
+- **Model 1:** VGG 16
+- **Model 2:** Xception
+- **Model 3:** ResNet5OV2
 
 All preprocessing (image augmentation) and hyperparameters (optimizer, learning rate, epochs, batch size) were the same across all models. 
 
@@ -133,7 +133,6 @@ Classifier.fit(training_data,
 The comparison of these eight models was based on accuracy, macro, and weighted average F1 scores, along with GPU training time. Xception demonstrated the highest accuracy at 80.5%, followed by ResNet50V2 at 55.6% and VGG16 at 36.7%. Transfer learning models notably outperformed handcrafted CNN models, which achieved only approximately 1% accuracy. However, despite the superior performance, transfer learning models required significantly longer training times compared to handcrafted CNN models, with ResNet50V2 taking over 15 hours. Additionally, Xception attained the best Macro average F1 score of 0.8 among all models, further highlighting the superiority of transfer learning models over handcrafted CNN models, which scored close to zero in F1 score.
 
 <img width="851" alt="Screen Shot 2024-04-03 at 3 30 43 PM" src="https://github.com/sarahkpree/Dog_Breed_Identification/assets/61251211/ffd507ae-f468-43d3-b963-bc5ccffea3ed">
-
 
 <img width="820" alt="Screen Shot 2024-04-03 at 3 30 24 PM" src="https://github.com/sarahkpree/Dog_Breed_Identification/assets/61251211/11fa9fd9-9d8c-411d-b8a0-ff52ca41d322">
 
