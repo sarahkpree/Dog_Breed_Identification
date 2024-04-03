@@ -140,3 +140,6 @@ The comparison of these eight models was based on accuracy, macro, and weighted 
 
 Some potential limitations of this project include:
 - Some images contain distractions like humans and objects, while certain dog characteristics, such as similarities between breeds and variations in age, posed challenges for training.
+- The choice of models evaluated in the project may not encompass all potential architectures or techniques that could improve performance.
+- The models' hyperparameters may not have been optimized thoroughly, potentially leaving room for improvement in their performance.
+- The reported training times were based on GPU performance, which may vary depending on the specific hardware used. This could limit the reproducibility of results on different computing platforms or environments.
